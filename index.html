@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moodify - Ruh Haline Göre Görseller</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>My Mood 😌</h1>
+  <p>Bugün kendini nasıl hissediyorsun?</p>
+
+  <select id="moodSelect">
+    <option value="">-- Ruh halini seç --</option>
+    <option value="happy">Mutlu 😊</option>
+    <option value="sad">Üzgün 😢</option>
+    <option value="angry">Sinirli 😠</option>
+    <option value="relaxed">Rahatlamış 🧘</option>
+    <option value="energetic">Enerjik ⚡</option>
+    <option value="romantic">Romantik 💖</option>
+    <option value="bored">Sıkılmış 😐</option>
+    <option value="motivated">Motivasyonlu 🚀</option>
+  </select>
+
+  <button onclick="getMoodImages()">Göster</button>
+
+  <div class="quote" id="quoteBox"></div>
+  <div class="gallery" id="gallery"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
