@@ -1,4 +1,4 @@
-const unsplashKey = '3L6ifapsBhTe2L7JnNMpiR2L1-vG5Umvfewuncbbr8g'; // Buraya kendi API key'ini yapıştır
+const unsplashKey = '3L6ifapsBhTe2L7JnNMpiR2L1-vG5Umvfewuncbbr8g'; 
 
 
 
@@ -23,7 +23,7 @@ async function getMoodImages() {
   const mood = document.getElementById("moodSelect").value;
   if (!mood) return alert("Lütfen bir ruh hali seç!");
 
-  changeBackground(mood); // 🎨 Ruh haline göre arka planı değiştir
+  changeBackground(mood);
 
   const randomPage = Math.floor(Math.random() * 5) + 1;
 
